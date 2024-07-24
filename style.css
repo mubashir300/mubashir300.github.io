@@ -1,8 +1,10 @@
 div{
-    background-color: rgb(255, 255, 255);
+    
 }
 body
 {
+    background-image: url("/images/amy-humphries-2M_sDJ_agvs-unsplash.jpg");
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
