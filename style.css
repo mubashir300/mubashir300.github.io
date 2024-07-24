@@ -3,6 +3,8 @@ div{
 }
 body
 {
+    background-image: url("amy-humphries-2M_sDJ_agvs-unsplash.jpg");
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
