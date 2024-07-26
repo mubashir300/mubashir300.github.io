@@ -1,64 +1,66 @@
-div{
-    
+div {
 }
-body
-{
+body {
+  background-image: url("/images/amy-humphries-2M_sDJ_agvs-unsplash.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+img {
+  width: 300px;
+}
+.custom-p {
+  font-weight: bold;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 10%;
+}
+
+/* Phone */
+/* Styles for screens smaller than 500px */
+@media (max-width: 500px) {
+  body {
     background-image: url("/images/amy-humphries-2M_sDJ_agvs-unsplash.jpg");
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-h1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
-    color:rgb(0, 0, 0);
-}
-img{
+  }
+  h1 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+  img {
     width: 300px;
-}
-.custom-p {
+  }
+  .custom-p {
     font-weight: bold;
-}
-.icon {
-    width: 30px;
-    height: 30px;
-}
-.content {
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  .content {
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding-left: 10%;}
-     /* Styles for screens larger than 600px */
-     @media (max-width: 600px) {
-        body
-{
-    background-image: url("/images/amy-humphries-2M_sDJ_agvs-unsplash.jpg");
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    padding-left: 10%;
+  }
 }
-h1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 300px;
-    color:rgb(255, 255, 255);
-}
-img{
-    width: 100px;
-}
-.custom-p {
-    font-weight: bold;
-}
-.icon {
-    width: 10px;
-    height: 10px;
-}
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    padding-left: 10%;}
-     }
